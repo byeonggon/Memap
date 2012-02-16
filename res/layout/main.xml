@@ -4,9 +4,19 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello" />
+  <com.google.android.maps.MapView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/mapview"
+      android:layout_width="fill_parent"
+      android:layout_height="400dp"
+      android:apiKey="06Jx6p9OPZBExuO66LBtuKytR4oBq_gMJZKRM9Q"
+      android:clickable="true"
+  />
+
+  <Button
+      android:id="@+id/button1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:text="@string/memo" />
 
 </LinearLayout>

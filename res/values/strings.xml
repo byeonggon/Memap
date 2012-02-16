@@ -3,5 +3,7 @@
 
     <string name="hello">Hello World, Memap!</string>
     <string name="app_name">Memap</string>
+    <string name="memo">메모하기</string>
+    <string name="memo_land">메모</string>
 
 </resources>
