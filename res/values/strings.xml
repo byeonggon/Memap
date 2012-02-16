@@ -5,5 +5,9 @@
     <string name="app_name">Memap</string>
     <string name="memo">메모하기</string>
     <string name="memo_land">메모</string>
+    <string name="memo_save">저장하기</string>
+    <string name="subject_hint">제목을 입력하세요</string>
+    <string name="content_hint">메모할 내용을 입력하세요</string>
+    <string name="view">메모 보기</string>
 
 </resources>
