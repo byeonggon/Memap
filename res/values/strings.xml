@@ -9,5 +9,9 @@
     <string name="subject_hint">제목을 입력하세요</string>
     <string name="content_hint">메모할 내용을 입력하세요</string>
     <string name="view">메모 보기</string>
+    <string name="Alert_no_subject">제목이 없습니다.\n제목을 작성해 주세요.</string>
+    <string name="title_no_subject">경고</string>
+    <string name="return_back">돌아가기</string>
+    <string name="memo_view_empty">표시할 내용이 없습니다.</string>
 
 </resources>

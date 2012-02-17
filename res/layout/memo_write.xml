@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:gravity="top"
     android:orientation="vertical" >
-
+
     <EditText
         android:id="@+id/memo_subject"
         android:layout_width="280dp"

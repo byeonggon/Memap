@@ -17,24 +17,24 @@
       android:layout_width="match_parent"
       android:layout_height="80dp"
       android:layout_gravity="center"
-      android:layout_marginTop="2dp"
+      android:layout_marginTop="10dp"
       android:stretchColumns="*" >
 
-	  <TableRow
-	      android:layout_width="match_parent"
-	      android:layout_height="80dp"
-	      android:gravity="fill">
-	      <Button
-	          android:id="@+id/write"
-	          android:text="@string/memo"
-	          android:layout_width="match_parent"
-	          android:layout_height="80dp" />
-	      <Button
-	          android:id="@+id/view"
-	          android:text="@string/view"
-	          android:layout_width="match_parent"
-	          android:layout_height="80dp" />
-	  </TableRow>
+      <TableRow
+          android:layout_height="80dp"
+          android:gravity="fill" >
+
+          <Button
+              android:id="@+id/write"
+              android:layout_height="80dp"
+              android:text="@string/memo" />
+
+          <Button
+              android:id="@+id/view"
+              android:layout_height="80dp"
+              android:text="@string/view" />
+      </TableRow>
+
   </TableLayout>
   
 </LinearLayout>
